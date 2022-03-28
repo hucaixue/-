@@ -1,0 +1,32 @@
+import wordcloud
+
+w=wordcloud.WordCloud(
+    font_path=None,
+    width=400,
+    height=200,
+    margin=2,
+    ranks_only=None,
+    prefer_horizontal=0.9,
+    mask=None,
+    scale=1,
+    color_func=None,
+    max_words=200,
+    min_font_size=4,
+    stopwords=None,
+    random_state=None,
+    background_color='black',
+    max_font_size=None,
+    font_step=1,
+    mode='RGB',
+    relative_scaling='auto',
+    regexp=None,
+    collocations=True,
+    colormap=None,
+    normalize_plurals=True,
+    contour_width=0,
+    contour_color='black',
+    repeat=False,
+    include_numbers=False,
+    min_word_length=0,
+    collocation_threshold=30
+)
